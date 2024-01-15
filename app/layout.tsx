@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} flex flex-col min-h-screen bg-white dark:bg-gray-900`}>
         <Navbar/>
-        <main className="flex-1 flex justify-center">
+        <main className="flex-1 flex items-center">
           {children}
         </main>
         <Footer/>
