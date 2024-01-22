@@ -19,24 +19,29 @@ export const metadata: Metadata = {
 
 export default function Page() {
 	return (
-		<div className='flex-1 flex flex-col items-center'>
-			<div className='w-full max-w-3xl px-4 md:px-6'>
+		<div className='flex-1 flex flex-col items-center px-2'>
+			<div className='w-full max-w-3xl px-6'>
 				<section className='py-12 md:py-24 lg:py-32'>
 					<div className='space-y-4 text-center'>
-						<h1 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl'>
+						<h1 className='text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl'>
 							Application Tracking Manager: Re-imaging internal tracking for government apps
 						</h1>
-						<div className='space-y-4 text-center px-24'>
-							<p className='text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400'>
+						<div className='space-y-4 text-center md:px-24 px-0 font-serif py-4'>
+							<p className='text-gray-500 text-lg md:text-lg dark:text-gray-400'>
 								Our division at Environment and Climate Change were developing and maintaining nearly
-								one hundred different software applications across siloed teams... and critical
-								record-keeping for these apps were still being handled in a spreadsheet.
+								one hundred software applications across siloed teams... and critical record-keeping for
+								these apps were still being handled in a spreadsheet.
 							</p>
-							<p className='text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400'>
-								I was a part of the ambitious project to design a brand new application to efficiently
-								track application data across short of 100 software applications in my division, and get
-								buy-in from senior management.
+							<p className='text-gray-500 md:text-lg text-lg dark:text-gray-400'>
+								I was a part of the ambitious project to design and build a brand new internal webapp to
+								efficiently track information across short of 100 software applications in my division
+								and reduces admin burden, and ultimately get buy-in from senior management.
 							</p>
+							{/* <p className='text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400'>
+								This is my story of designing "ATM" -- an internal webapp to efficiently track
+								information across short of 100 software applications in my division, and get buy-in
+								from senior management.
+							</p> */}
 						</div>
 					</div>
 				</section>
@@ -52,44 +57,68 @@ export default function Page() {
 					alt='Picture of the application'
 				/>
 			</div>
-			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg'>
+			<section className='px-6 space-y-12 text-center py-28 max-w-xl md:text-lg font-serif dark:text-gray-400 text-gray-600'>
+				<p>
+					The Resuable Application Division at Environment and Climate Change Canada (ECCC) is responsible for
+					the development and maintenance of several software services and web-apps, including those for
+					federal regulatory reporting, informational sites, data visualization and more.
+				</p>
+				<p>
+					A team of seven student developer interns, including myself, across the division and one full-time
+					developer was formed to pilot an initiative to improve the way that critical information about these
+					applications were tracked brought together.
+				</p>
+			</section>
+			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg bg-slate-50 w-full'>
 				<section className='py-12 md:py-24 lg:py-32 max-w-xl'>
 					<div className='space-y-4'>
-						<h2 className='tracking-tighter font-semibold'>the challenge</h2>
+						<h2 className='tracking-tighter font-semibold dark:text-gray-400 text-gray-600'>
+							the challenge
+						</h2>
 						<h3 className='text-2xl font-bold tracking-tighter md:text-3xl'>
-							Create engagement in effective documentation
+							Get users engaged in effective internal documentation
 						</h3>
-						<div className='py-8 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
+						<div className='py-8 space-y-4 text-gray-600 dark:text-gray-400 font-serif md:text-lg'>
 							<p>
-								Our goal was to ... We needed to get people excited about internal information tracking.
+								Our goal was to enable employees in our division to keep internal documentation and
+								information tracking up-to-date in an effortless.
 							</p>
 							<p>
-								Our users were team leads and managers. We wanted to save users time and focus on what
-								matters most to them: providing essential business value, but also ensuring legal
-								compliance and upholding high standards in the development of government software.
+								Our target users were engineering team leads and managers. We wanted to save our users
+								time on admin tasks, specifically updating software profiles, so they can focus on what
+								matters most to them: providing essential business value, ensuring legal compliance and
+								upholding high standards in the development of government software.
 							</p>
 							<p>
-								Get users invested in the capabilities of modern technology - Blazor and WebAssembly. We
-								were piloting a test project, but we were determined to impress and get buy-in.
+								Further, our solution needed to get users excited and invested. This pilot project would
+								introduce the capabilities of modern technologies - Blazor and WebAssembly - and
+								determine if they can be used in higher stake public-facing gov apps. We were determined
+								to impress and get buy-in from senior management.
 							</p>
 						</div>
 					</div>
-					<div className='space-y-4 py-8'>
-						<h4 className='text-xl font-bold'>My Role</h4>
-						<div className='py-2 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
-							<p>I led the design of the application from the beginning in June 2021.</p>
+					<div className='space-y-4 py-10'>
+						<h4 className='text-xl font-bold'>My role</h4>
+						<div className='py-2 space-y-4 text-gray-600 dark:text-gray-400 md:text-lg font-serif'>
 							<p>
-								I collaborated with 3 other frontend developers, who doubled as designers to define the
-								flow, visual design and interaction design. In addition, I worked with a product manager
-								to help in gathering and refining requirements.
+								I led the design and frontend development of the application, collaborating with 3 other
+								frontend developers (who doubled as designers).
+							</p>
+							<p>
+								I was responsible for the interaction and visual design, as well as frontend development
+								for ATM. In addition, I worked with our product manager to conduct user research and aid
+								help in requirements gathering.
 							</p>
 							<p>
 								I continued to gather user feedback and refine the design throughout the implementation
-								stage from (July-Dec 2021). Further, I developed the front end for several pages.
+								of the minimum viable product. This pilot project lasted between July 2021-December
+								2021.
 							</p>
 						</div>
 					</div>
 				</section>
+			</div>
+			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg'>
 				<section className='py-12 md:py-24 lg:py-32 max-w-xl'>
 					<div className='space-y-4 py-12'>
 						<h2 className='tracking-tighter font-semibold'>the approach</h2>
@@ -140,11 +169,11 @@ export default function Page() {
 				<section className='py-12 md:py-24 lg:py-32 flex flex-col items-center'>
 					<div className='space-y-4 py-12 max-w-xl'>
 						<h2 className='tracking-tighter font-semibold'>the solution</h2>
-						<h3 className='text-2xl font-bold tracking-tighter md:text-3xl'>Introducing...</h3>
+						<h3 className='text-2xl font-bold tracking-tighter md:text-3xl'>Introducing ATM</h3>
 						<p className='text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400'>
-							We designed a project management web application, with a focus on relevancy (getting the
-							relevant information quickly and without distraction for each user), accountability,
-							accuracy & reliability, and a delightful user experience.
+							We designed a web application, Application Tracking Manager (ATM), with a focus on relevancy
+							(getting the relevant information quickly and without distraction for each user),
+							accountability, accuracy & reliability, and a delightful user experience.
 						</p>
 					</div>
 					<div className='space-y-4 py-12  max-w-xl'>
@@ -276,12 +305,12 @@ export default function Page() {
 							return, we want to inform quickly of important alerts.
 						</p>
 					</div>
-					<figure className='space-y-2 text-center'>
+					<figure className='space-y-2 text-center max-w-lg'>
 						<Image
 							src={alertNotifs}
 							style={{
 								width: '100%',
-								maxWidth: '1048px',
+								maxWidth: '420px',
 								height: 'auto',
 							}}
 							alt='View of the notification center, on the Alerts tab, displaying 3 alerts indicating past due updates.'
