@@ -28,20 +28,15 @@ export default function Page() {
 						</h1>
 						<div className='space-y-4 text-center md:px-24 px-0 font-serif py-4'>
 							<p className='text-gray-500 text-lg dark:text-gray-400'>
-								Our division at Environment and Climate Change were developing and maintaining nearly
-								one hundred software applications across siloed teams... and critical record-keeping for
-								these apps were still being handled in a spreadsheet.
+								Our division at Environment and Climate Change Canada develop and maintain nearly one
+								hundred software applications across several independent teams... and critical
+								record-keeping for these apps were still being handled in a spreadsheet.
 							</p>
 							<p className='text-gray-500 text-lg dark:text-gray-400'>
 								I was a part of the ambitious project to design and build a brand new internal webapp to
-								efficiently track information across short of 100 software applications in my division
-								and reduces admin burden, and ultimately get buy-in from senior management.
+								efficiently track information across these software applications, reduces admin burden,
+								and ultimately get buy-in from senior management.
 							</p>
-							{/* <p className='text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400'>
-								This is my story of designing "ATM" -- an internal webapp to efficiently track
-								information across short of 100 software applications in my division, and get buy-in
-								from senior management.
-							</p> */}
 						</div>
 					</div>
 				</section>
@@ -64,12 +59,12 @@ export default function Page() {
 					federal regulatory reporting, informational sites, data visualization and more.
 				</p>
 				<p>
-					A team of seven student developer interns, including myself, across the division and one full-time
-					developer was formed to pilot an initiative to improve the way that critical information about these
-					applications were tracked brought together.
+					A team of seven student dev and design interns, including myself, along with one full-time developer
+					was formed to pilot an initiative to improve the way that critical information about these
+					applications were tracked.
 				</p>
 			</section>
-			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg bg-slate-50  dark:bg-slate-800 w-full'>
+			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg bg-slate-50 dark:bg-slate-800 w-full'>
 				<section className='py-12 md:py-24 lg:py-32 max-w-lg'>
 					<div className='space-y-4'>
 						<h2 className='tracking-tighter font-semibold dark:text-gray-400 text-gray-600'>
@@ -81,19 +76,23 @@ export default function Page() {
 						<div className='py-8 space-y-4 text-gray-600 dark:text-gray-400 font-serif md:text-lg'>
 							<p>
 								Our goal was to enable employees in our division to keep internal documentation and
-								information tracking up-to-date in an effortless.
+								information tracking up-to-date effortlessly.
 							</p>
 							<p>
 								Our target users were engineering team leads and managers. We wanted to save our users
-								time on admin tasks, specifically updating software profiles, so they can focus on what
-								matters most to them: providing essential business value, ensuring legal compliance and
-								upholding high standards in the development of government software.
+								time on the admin task of updating these app profiles, so that they can focus on what
+								matters most to them:{' '}
+								<em>
+									providing essential business value, ensuring legal compliance and upholding high
+									standards in the development of government software.
+								</em>
 							</p>
 							<p>
-								Further, our solution needed to get users excited and invested. This pilot project would
-								introduce the capabilities of modern technologies - Blazor and WebAssembly - and
-								determine if they can be used in higher stake public-facing gov apps. We were determined
-								to impress and get buy-in from senior management.
+								Further, we needed to get users excited and invested in our solution. This pilot project
+								would introduce the capabilities of a modern web techstack{' '}
+								<em>using Blazor and WebAssembly</em>. It would determine if it should be used in
+								modernizing higher stake public-facing government apps. We were determined to impress
+								and get buy-in from senior management.
 							</p>
 						</div>
 					</div>
@@ -102,12 +101,12 @@ export default function Page() {
 						<div className='py-2 space-y-4 text-gray-600 dark:text-gray-400 md:text-lg font-serif'>
 							<p>
 								I led the design and frontend development of the application, collaborating with 3 other
-								frontend developers (who doubled as designers).
+								frontend developers.
 							</p>
 							<p>
-								I was responsible for the interaction and visual design, as well as frontend development
-								for ATM. In addition, I worked with our product manager to conduct user research and aid
-								help in requirements gathering.
+								I was responsible for the interaction and visual design, as well as frontend
+								development. In addition, I worked with our product manager to conduct user research and
+								aid help in requirements gathering.
 							</p>
 							<p>
 								I continued to gather user feedback and refine the design throughout the implementation
@@ -118,8 +117,8 @@ export default function Page() {
 					</div>
 				</section>
 			</div>
-			<div className='px-4 md:px-6 flex flex-col items-center max-w-screen-lg'>
-				<section className='py-12 md:py-24 lg:py-32 max-w-lg'>
+			<div className='flex flex-col items-center max-w-screen-lg'>
+				<section className='px-4 md:px-6 py-12 md:py-24 lg:py-32 max-w-lg'>
 					<div className='space-y-4 py-12'>
 						<h2 className='tracking-tighter font-semibold dark:text-gray-400 text-gray-600'>
 							the approach
@@ -141,8 +140,8 @@ export default function Page() {
 								alt='An empty Excel spreadsheet'
 							/>
 							<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-								After years of using a spreadsheet, how could we re-invent the way information is
-								tracked?
+								After years of using a spreadsheet, how could we re-invent the way employees think about
+								tracking information?
 							</figcaption>
 						</figure>
 					</div>
@@ -152,9 +151,9 @@ export default function Page() {
 							<li>
 								<h5>Version chaos meant no authoritative source</h5>
 								<p className='font-serif py-2 text-gray-600 dark:text-gray-400'>
-									The spreadsheet was circulated by email. Regular updates were not being made (only
-									on a “need-to” basis) or verified, hence no one knew if the information was
-									up-to-date.
+									The spreadsheet originally used for tracking this data was circulated by email.
+									There were no regular updates nor verification, hence no one knew if the information
+									was up-to-date. "What is meant to be an authoritative source was simply not."
 								</p>
 							</li>
 							<li>
@@ -169,16 +168,16 @@ export default function Page() {
 							<li>
 								<h5>Spreadsheet was getting bloated</h5>
 								<p className='font-serif py-2 text-gray-600 dark:text-gray-400'>
-									Everytime information is needed for even a subset of applications, a new column is
-									added, even when it doesn't apply to other applications. It became difficult to see
-									what is relevant for a team lead's project, and even harder for everyone to pick up
-									updates from one version to the next.
+									Every time information is needed for even a subset of applications, a new column is
+									added, despite it not applying to other applications. It became difficult to see
+									what is relevant for an individuals team lead's project, and even harder for
+									everyone to pick up updates from one version to the next.
 								</p>
 							</li>
 						</ul>
 					</div>
 				</section>
-				<section className='py-12 md:py-24 lg:py-32 flex flex-col items-center'>
+				<section className='py-12 px-4 md:px-6 md:py-24 lg:py-32 flex flex-col items-center'>
 					<div className='space-y-4 py-12 max-w-lg'>
 						<h2 className='tracking-tighter font-semibold dark:text-gray-400 text-gray-600'>
 							the solution
@@ -191,19 +190,19 @@ export default function Page() {
 							</p>
 							<ol className='list-decimal font-serif list-outside pl-8'>
 								<li>
-									relevancy: users access individually relevant information quickly and with minimal
-									distractions
+									Relevancy: users can access individually relevant information quickly and with
+									minimal distractions.
 								</li>
-								<li>accuracy: keeping data up-to-date</li>
-								<li>accountability: </li>
+								<li>Accuracy: keeping data up-to-date to build an authoritative source.</li>
+								<li>Accountability: users can be held responsible for their changes.</li>
 							</ol>
 						</div>
 					</div>
 					<div className='space-y-4 py-12  max-w-lg'>
 						<h4 className='text-xl font-bold'>Modularizing information enables relevancy</h4>
 						<p className='py-4 text-gray-600 dark:text-gray-400 font-serif'>
-							Each software application record consisted of a set of modules. Each module is a grouping of
-							related information fields. Team leads may now select which modules are relevant for their
+							Each application record consist of a set of modules. Each module is a grouping of related
+							information fields. Team leads may now select which modules are relevant for their
 							application, and pin modules for viewers to highlight the most important at any point in
 							time.
 						</p>
@@ -226,8 +225,8 @@ export default function Page() {
 					<div className='space-y-8 pt-24 pb-12 max-w-lg text-gray-600 dark:text-gray-400 font-serif'>
 						<p>
 							Fields within modules are editable. We define different data types (e.g. single-select,
-							boolean, text, long text, dates) for fields to make data entry more intuitive to users and
-							less prone to errors.
+							boolean, text, long text, dates) for fields to make data entry more intuitive and less prone
+							to errors.
 						</p>
 
 						<p>
@@ -257,7 +256,7 @@ export default function Page() {
 							Keeping extensibility in mind, modules were designed so that they can be mandatory for all
 							applications or optional. This enables managers to create new modules in the future and
 							apply it to all applications quickly. At the same time, the flexibility of optional modules
-							allows team leads to choose what is relevant to their project.
+							allows team leads to choose what is relevant to their application.
 						</p>
 					</div>
 					<figure className='space-y-2 text-center'>
@@ -277,11 +276,11 @@ export default function Page() {
 					</figure>
 					<div className='space-y-4 pb-8 pt-40 max-w-lg'>
 						<h4 className='text-xl font-bold'>Reminders to encourage timely updates</h4>
-						<p className='py-4 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
-							In each module, there is a <em>Next update required</em> date. Reminder notifications are
-							sent to all subscribers to the app. Now, editors can set the date, leave the app and forget;
-							they will get be notified by email when they need. This keeps users informed, but still
-							focused on what matters, i.e. building good apps.
+						<p className='py-4 space-y-4 text-gray-600 dark:text-gray-400 font-serif'>
+							Users can subscribe to modules, and edit the <em>Next update required</em> date. Reminder
+							notifications are sent to all subscribers to the app. Now, users can set the update date,
+							leave ATM and forget; they will get be notified by email automatically. This ensures regular
+							up-keep of data without additional time wasted.
 						</p>
 					</div>
 					<figure className='text-center max-w-xl'>
@@ -320,11 +319,11 @@ export default function Page() {
 							The next update required, of which the date was set by the previous editor, is past due.
 						</figcaption>
 					</figure>
-					<div className='space-y-4 pt-24 pb-12 max-w-lg text-gray-500 dark:text-gray-400 font-serif'>
+					<div className='space-y-4 pt-24 pb-12 max-w-lg text-gray-600 dark:text-gray-400 font-serif'>
 						<p>
-							In-app notifications aggregate in the notifications center. Users aren't likely to be
-							spending time regularly in the app (that's what we're aiming for), hence when they do
-							return, we want to inform quickly of important alerts.
+							In-app notifications aggregate in the user's notifications center. Users are unlikely to be
+							spending time daily or weekly in ATM (which is what we're aiming for), hence when they do
+							return, they should be able to quickly access their important alerts.
 						</p>
 					</div>
 					<figure className='text-center max-w-sm'>
@@ -342,14 +341,17 @@ export default function Page() {
 							that they may be responsible for.
 						</figcaption>
 					</figure>
-
 					<div className='space-y-4 pb-8 pt-40 max-w-lg'>
 						<h4 className='text-xl font-bold'>Accountability made simple</h4>
 						<div className='py-4 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
 							<p>
 								Each module contains metadata on who last update the module and when. This ensures that
-								editor verifies that all information within that module is correct, as they are marked
-								as responsible.
+								the editor verifies that all information within that module is correct before saving, as
+								they are marked as responsible.
+							</p>
+							<p>
+								Editors must also required to edit the date of the next update, ensuring there is always
+								accountability in the future for verifying the data.
 							</p>
 						</div>
 					</div>
@@ -361,16 +363,18 @@ export default function Page() {
 								maxWidth: '1048px',
 								height: 'auto',
 							}}
-							alt='Last updated'
+							alt='Module page highlighting the last updated and lasted updated by metadata fields.'
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-							Last updated when and who; next update required
+							The current editor is blocked from saving their changes until the "Next update required"
+							value has been updated
 						</figcaption>
 					</figure>
 					<div className='space-y-4 pt-24 pb-12 max-w-lg'>
 						<p className='py-4 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
-							Whenever any user edits information, subscribers are informed. Updates are also sent via
-							email digest and in-app notifications (pop-up with notification center) to subscribers. This
+							Further, whenever any user edits information, subscribers of that module are informed.
+							Updates are sent via a weekly email digest. Subscribers also receives in-app toast
+							notifications, as well as in the notification (always accessible from the top bar). This
 							keeps them informed on new information, but also keeps record of who is making changes to
 							the data.
 						</p>
@@ -388,15 +392,16 @@ export default function Page() {
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
 							User receives an in-app toast notification when subscribed applications are updated (right),
-							and can view all notifications in their notification center.
+							and can view all notifications in their notification center (left).
 						</figcaption>
 					</figure>
 					<div className='space-y-4 pt-24 pb-12 max-w-lg'>
 						<p className='py-4 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
-							An initial ambitious design involving for comprehensive change tracking, was revised due to
-							time restrictions. Working closely with developers to balance implementation effort, we
-							modify the design to track <em>when a change occurred</em>. It provides enough information
-							that it is still useful and maintains a trail of responsibility, achieving accountability.
+							An initial ambitious design, involving comprehensive change tracking, was revised due to
+							time restrictions. Working closely with developers to account for implementation effort, we
+							modify the design to track <em>when a change occurred</em>. The revision provides just
+							enough information such that it is still useful in maintaining a history and trail of
+							responsibility.
 						</p>
 					</div>
 					<figure className='space-y-4 text-center max-w-2xl'>
@@ -410,51 +415,47 @@ export default function Page() {
 							alt='Left shows the original proposal for update notification. Right shows the final design'
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-							The original proposal featured exact values changed, added complexity. The final design,
-							revised for time constraints, simplifies the data needed to be tracked while achieving
-							intended purpose.
+							The original proposal featured exact changed values, adding technical complexity. The final
+							design, revised for time constraints, simplifies the data needed to be tracked while
+							achieving its intended purpose.
 						</figcaption>
 					</figure>
 				</section>
-				<section className='py-12 md:py-24 lg:py-32  max-w-lg'>
-					<div className='space-y-4'>
+				<section className='px-4 py-12 mt-16 mb-16 md:py-24 lg:py-32 space-y-12 w-full bg-slate-50 dark:bg-slate-800 flex flex-col items-center'>
+					<div className='space-y-4 max-w-lg'>
 						<h2 className='tracking-tighter font-semibold'>the pilot launch</h2>
 						<h3 className='text-2xl font-bold tracking-tighter md:text-3xl'>6 months later</h3>
 
-						<p className='py-4 text-gray-500 text-lg dark:text-gray-400 font-serif'>
-							I continued to be involved in refining the finer details of the design as we developed and
-							implemented features. We demoed work-in-progress to stakeholders, after feedback and
-							iterations, the app was ready in production within 6 months.
+						<p className='py-4 text-gray-600 text-lg dark:text-gray-300 font-serif'>
+							I continued to be involved in refining the details of the design as we developed features,
+							and gathered feedback from users. An MVP was ready in production in 6 months, and I led the
+							demo to senior managers and engineering leads across the division in early December 2021
 						</p>
 					</div>
-					<div className='space-y-4 py-8'>
+					<div className='space-y-4 py-8 max-w-lg'>
 						<h4 className='text-xl font-bold'>Outcomes</h4>
-						<div className='py-2 space-y-4 text-gray-500 dark:text-gray-400 font-serif'>
+						<div className='py-2 space-y-6 text-lg text-gray-600 dark:text-gray-300 font-serif'>
 							<p>
-								We demoed the first production-ready application to senior manages in early December
-								2021 (exactly 6 months). Our pitch received immense positive feedback. There was no
-								doubt that this would save hours of developer work time, with future extensions into
-								other divisions / groups that use the data.
-							</p>
-							<p>
-								Technical managers brought questions regarding develop tools including data extraction
-								and API features, demonstrating their enthusiasm for the potential of this application.
+								We received immense positive feedback. This would not only <b>save developer time</b>,
+								but it would also extend to other divisions and user groups that use the data. Technical
+								managers posed questions about developer tool features including data extraction and API
+								features, demonstrating their <b>enthusiasm for the potential of ATM</b>.
 							</p>
 							<p>
 								We would continue to develop the application, introducing further features (case study
-								coming soon) and resolving technical complications. I set up a launch plan for a smooth
-								adoption of the product.
+								coming soon) and resolving technical complications.
 							</p>
 							<p>
-								We launched the site officially in June 2022, less than a year since the start of the
-								intiative. Now, one year later, the app is activity being used to track almost 100
-								software applications across the division, with over 100 users.
+								We launched ATM officially in June 2022, less than a year since the start of the
+								intiative. I had built a launch plan for a smooth adoption of the product. Now, at the
+								time of writing (1 year later) the app is{' '}
+								<b>actively tracking almost 100 software applications</b> across the division, with over
+								100 users.
 							</p>
 							<p>
-								Further, the shift to using Blazor on several large scale business critical applications
-								has long begun. Our project showcased the capabilities of Blazor, generating enough
-								interest to impact the development and operations of sites used by Canadians all over
-								the country.
+								Further, the shift to using Blazor on several business critical applications has long
+								begun. Our project showcased the capabilities of Blazor, generating interest to impact
+								the development of government applications.
 							</p>
 						</div>
 					</div>
