@@ -40,7 +40,7 @@ export default function Home() {
 						<span className='text-lg text-gray-400'>(coming soon)</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-						Find all the places where I've had an opportunity to make an impact through UX design.
+						Find all the places where I&apos;ve had an opportunity to make an impact through UX design.
 					</p>
 				</div>
 
@@ -53,7 +53,7 @@ export default function Home() {
 						<span className='text-lg text-gray-400'>(coming soon)</span>
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-						Check out what I'm sharing on Figma community profile.
+						Check out what I&apos;m sharing on Figma community profile.
 					</p>
 				</div>
 

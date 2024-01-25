@@ -153,16 +153,17 @@ export default function Page() {
 								<p className='font-serif py-2 text-gray-600 dark:text-gray-400'>
 									The spreadsheet originally used for tracking this data was circulated by email.
 									There were no regular updates nor verification, hence no one knew if the information
-									was up-to-date. "What is meant to be an authoritative source was simply not."
+									was up-to-date. &quot;What is meant to be an authoritative source was simply
+									not.&quot;
 								</p>
 							</li>
 							<li>
 								<h5>Time wasted on manual checks for accuracy</h5>
 								<p className='font-serif py-2 text-gray-600 dark:text-gray-400'>
-									"Managers often need to get critical information across many or all the
-									applications, that's all supposed to be in the spreadsheet, but you have look up &
-									then email all the team leads to double or triple check that all the data is
-									actually accurate & reliable."
+									&quot;Managers often need to get critical information across many or all the
+									applications, that&apos;s all supposed to be in the spreadsheet, but you have look
+									up & then email all the team leads to double or triple check that all the data is
+									actually accurate & reliable.&quot;
 								</p>
 							</li>
 							<li>
@@ -170,7 +171,7 @@ export default function Page() {
 								<p className='font-serif py-2 text-gray-600 dark:text-gray-400'>
 									Every time information is needed for even a subset of applications, a new column is
 									added, despite it not applying to other applications. It became difficult to see
-									what is relevant for an individuals team lead's project, and even harder for
+									what is relevant for an individuals team lead&apos;s project, and even harder for
 									everyone to pick up updates from one version to the next.
 								</p>
 							</li>
@@ -231,8 +232,8 @@ export default function Page() {
 
 						<p>
 							Further, we can track metadata for separate modules so that team members who are responsible
-							for different aspects of an application can make changes without "stepping on each other's
-							toes".
+							for different aspects of an application can make changes without &quot;stepping on each
+							other&apos;s toes&quot;.
 						</p>
 					</div>
 					<figure className='space-y-2 text-center'>
@@ -270,8 +271,8 @@ export default function Page() {
 							alt='Module page, consisting of metadata (who and when last updated) and editable data fields'
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-							Team leads or project managers can add or remove optional modules in their application's
-							settings page, to always ensure relevancy.
+							Team leads or project managers can add or remove optional modules in their
+							application&apos;s settings page, to always ensure relevancy.
 						</figcaption>
 					</figure>
 					<div className='space-y-4 pb-8 pt-40 max-w-lg'>
@@ -301,8 +302,8 @@ export default function Page() {
 						<p>
 							This design focuses on regular checks and updates, shifting the behaviour from neglecting to
 							update due to <em>forgetting</em> until someone is urgently seeking the information, to
-							regular data maintenance, When next update date is past, the module's status is auto-set to
-							“Needs attention” so that others know that the information may be inaccurate.
+							regular data maintenance, When next update date is past, the module&apos;s status is
+							auto-set to “Needs attention” so that others know that the information may be inaccurate.
 						</p>
 					</div>
 					<figure className='space-y-2 text-center'>
@@ -321,9 +322,9 @@ export default function Page() {
 					</figure>
 					<div className='space-y-4 pt-24 pb-12 max-w-lg text-gray-600 dark:text-gray-400 font-serif'>
 						<p>
-							In-app notifications aggregate in the user's notifications center. Users are unlikely to be
-							spending time daily or weekly in ATM (which is what we're aiming for), hence when they do
-							return, they should be able to quickly access their important alerts.
+							In-app notifications aggregate in the user&apos;s notifications center. Users are unlikely
+							to be spending time daily or weekly in ATM (which is what we&apos;re aiming for), hence when
+							they do return, they should be able to quickly access their important alerts.
 						</p>
 					</div>
 					<figure className='text-center max-w-sm'>
@@ -337,8 +338,8 @@ export default function Page() {
 							alt='View of the notification center, on the Alerts tab, displaying 3 alerts indicating past due updates.'
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-							Reminder alerts populate in the user's notification center for easy access to update modules
-							that they may be responsible for.
+							Reminder alerts populate in the user&apos;s notification center for easy access to update
+							modules that they may be responsible for.
 						</figcaption>
 					</figure>
 					<div className='space-y-4 pb-8 pt-40 max-w-lg'>
@@ -366,8 +367,8 @@ export default function Page() {
 							alt='Module page highlighting the last updated and lasted updated by metadata fields.'
 						/>
 						<figcaption className='text-xs text-gray-600 dark:text-gray-100 font-serif italic'>
-							The current editor is blocked from saving their changes until the "Next update required"
-							value has been updated
+							The current editor is blocked from saving their changes until the &quot;Next update
+							required&quot; value has been updated
 						</figcaption>
 					</figure>
 					<div className='space-y-4 pt-24 pb-12 max-w-lg'>
