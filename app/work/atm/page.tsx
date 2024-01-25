@@ -118,8 +118,8 @@ export default function Page() {
 				</section>
 			</div>
 			<div className='flex flex-col items-center max-w-screen-lg'>
-				<section className='px-4 md:px-6 py-12 md:py-24 lg:py-32 max-w-lg'>
-					<div className='space-y-4 py-12'>
+				<section className='px-4 md:px-6 py-12'>
+					<div className='space-y-4 py-12 max-w-lg'>
 						<h2 className='tracking-tighter font-semibold dark:text-gray-400 text-gray-600'>
 							the approach
 						</h2>
@@ -130,7 +130,7 @@ export default function Page() {
 							We conducted user interviews with team leads and managers to uncover pain points with the
 							current workflow, which would reveal opportunities to differentiate our solution.
 						</p>
-						<figure className='space-y-2 text-center'>
+						<figure className='space-y-2 text-center max-w-lg'>
 							<Image
 								src={spreadsheet}
 								style={{
@@ -145,7 +145,7 @@ export default function Page() {
 							</figcaption>
 						</figure>
 					</div>
-					<div className='space-y-4 py-12'>
+					<div className='space-y-4 py-12 max-w-lg'>
 						<h4 className='text-xl font-bold'>Insights</h4>
 						<ul className='py-4 space-y-6 text-gray-500 dark:text-gray-100'>
 							<li>
