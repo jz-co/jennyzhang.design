@@ -5,8 +5,23 @@ import Link from 'next/link';
 export default function Home() {
 	return (
 		<main className='flex flex-col items-center justify-between px-4 py-24 md:px-12 lg:px-24 space-y-12'>
-			<div className='text-center'>
-				<h1 className={`mb-3 text-2xl font-semibold`}>Jenny is a UX designer based in Toronto.</h1>
+			<div className='text-center mb-12 flex flex-col items-center  px-12 '>
+				<h1 className='mb-4 text-2xl font-semibold'>Jenny is a UX designer based in Toronto</h1>
+				<div className='text-sm max-w-lg text-gray-500 dark:text-gray-400 space-y-2'>
+					<p>Passionate about creating intuitive, delightful digital user experiences.</p>{' '}
+					<p>
+						Currently on a young UX team at{' '}
+						<a
+							className='underline underline-offset-2 hover:underline-offset-4'
+							href='https://www.canada.ca/en/environment-climate-change.html'
+							target='_blank'
+							rel='noopener noreferrer'>
+							ECCC
+						</a>{' '}
+						building a user-centred design culture in her government division and bringing the UX team to
+						the forefront of app development and modernization.
+					</p>
+				</div>
 			</div>
 			<div className='pb-12 pt-4 px-12 w-full max-w-6xl bg-slate-100 dark:bg-slate-800 text-gray-800 dark:text-gray-100'>
 				<Image
