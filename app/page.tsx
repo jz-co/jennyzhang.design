@@ -46,18 +46,20 @@ export default function Home() {
 				</Link>
 			</div>
 			<div className='mb-12 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left gap-4'>
-				<div className='group rounded-lg border border-transparent px-5 py-4'>
-					<h2 className={`mb-3 text-xl font-semibold text-gray-500`}>
+				<Link
+					href='/resume'
+					className='group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-slate-300 hover:bg-slate-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
+					<h2 className='mb-3 text-xl font-semibold'>
 						Resume{' '}
-						{/* <span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
+						<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
 							-&gt;
-						</span> */}
-						<span className='text-lg text-gray-400'>(coming soon)</span>
+						</span>
+						{/* <span className='text-lg text-gray-400'>(coming soon)</span> */}
 					</h2>
 					<p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-						Find all the places where I&apos;ve had an opportunity to make an impact through UX design.
+						Learn more about where I&apos;ve had an opportunity to make an impact through UX design.
 					</p>
-				</div>
+				</Link>
 
 				<div className='group rounded-lg border border-transparent px-5 py-4'>
 					<h2 className={`mb-3 text-xl font-semibold text-gray-500`}>
